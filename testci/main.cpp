@@ -13,6 +13,6 @@ int main() {
 
 	cout << "AxB= " << A * B << endl << "A+B= " << A + B << endl;
 
-	system("pause");
+	//system("pause");
 	return 0;
 }
