@@ -1,0 +1,9 @@
+language: cpp
+
+compiler: gcc
+
+script:
+  - mkdir build
+  - cd build
+  - cmake --build
+  - ctest --output-on-failure
