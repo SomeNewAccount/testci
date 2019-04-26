@@ -1,9 +1,10 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main(int argc, char** argv) {
-	int A = argv[0], B = argv[1];
+	int A = stoi(argv[0]), B = stoi(argv[1]);
 
 	cout << "Enter A: ";
 	cin >> A;
