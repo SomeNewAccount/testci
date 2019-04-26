@@ -2,8 +2,8 @@
 
 using namespace std;
 
-int main() {
-	int A, B;
+int main(int argc, char** argv) {
+	int A = argv[0], B = argv[1];
 
 	cout << "Enter A: ";
 	cin >> A;
