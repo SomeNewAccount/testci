@@ -10,7 +10,7 @@ int sum(int a, int b) {
 }
 
 TEST(sumTest, sumNull) {
-	EXPECT_EQ(0, sum(10, 5));
+	EXPECT_EQ(15, sum(10, 5));
 }
 
 int main(int argc, char** argv) {
