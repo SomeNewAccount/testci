@@ -51,4 +51,4 @@ before_install:
 script:
   - cmake .
   - cmake --build .
-  - g++ -Wall -Werror -o main *.cpp && ./main
+  - ./test_prog
