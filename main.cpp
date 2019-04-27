@@ -1,14 +1,20 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
+#include <gtest/gtest.h>
 
 using namespace std;
 
+int sum(int a, int b) {
+	return a + b;
+}
+
+TEST(sumTest, sumNull) {
+	EXPECT_EQ(0, sum(10, 5));
+}
+
 int main(int argc, char** argv) {
-	int A = atoi(argv[0]), B = atoi(argv[1]);
+	testing::InitGoogleTest(&argc, argv);
 
-	cout << "AxB= " << A * B << endl << "A+B= " << A + B << endl;
-
-	//system("pause");
-	return 0;
+	return RUN_ALL_TESTS();
 }

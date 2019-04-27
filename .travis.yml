@@ -47,4 +47,4 @@ matrix:
 before_install:
     - eval "${MATRIX_EVAL}"
 
-script: g++ -Wall -Werror -o main *.cpp && ./main 3 2
+script: g++ -Wall -Werror -o main *.cpp && ./main
