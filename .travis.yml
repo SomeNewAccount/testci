@@ -49,5 +49,6 @@ before_install:
     - ls
 
 script:
+  - cmake .
   - cmake --build .
   - g++ -Wall -Werror -o main *.cpp && ./main
