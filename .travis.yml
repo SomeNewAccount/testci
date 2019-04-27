@@ -48,4 +48,6 @@ before_install:
     - eval "${MATRIX_EVAL}"
     - ls
 
-script: g++ -Wall -Werror -o main *.cpp && ./main
+script:
+  - cmake --build .
+  - g++ -Wall -Werror -o main *.cpp && ./main
