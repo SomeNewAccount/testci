@@ -46,9 +46,12 @@ matrix:
 
 before_install:
     - eval "${MATRIX_EVAL}"
-    - ls
+    - pip install --user cpp-coveralls
 
 script:
   - cmake .
   - cmake --build .
   - ./test_prog
+  
+after_success:
+  - coveralls --root . -E ".*gtest.*" -E ".*CMakeFiles.*"
