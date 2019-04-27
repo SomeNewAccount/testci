@@ -34,7 +34,7 @@ endif()
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED on)
 
-add_executable(test main.cpp)
-target_link_libraries(test gtest_main)
-target_compile_features(test PRIVATE cxx_lambda_init_captures)
+add_executable(test_prog main.cpp)
+target_link_libraries(test_prog gtest_main)
+target_compile_features(test_prog PRIVATE cxx_lambda_init_captures)
 
