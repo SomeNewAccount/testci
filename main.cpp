@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
-#include <gtest_main/gtest.h>
+#include <gtest/gtest.h>
 
 using namespace std;
 
