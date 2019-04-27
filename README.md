@@ -1,2 +1,2 @@
-# testcihttps://github.com/SomeNewAccount/testci
-https://travis-ci.org/SomeNewAccount/testci.svg?branch=master
+# https://github.com/SomeNewAccount/testci
+[![Build Status](https://travis-ci.org/SomeNewAccount/testci.svg?branch=master)](https://travis-ci.org/SomeNewAccount/testci)
